@@ -1,0 +1,356 @@
+                                       /* General classes Style */
+body {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+}
+.bold-text{font-weight: bold}
+                            /* Style for Header Section */
+.header-section{background-image: linear-gradient(to right, rgb(10, 42, 93), rgb(12, 12, 31));margin: 0 !important; }
+.brand-logo{padding:10px 0 0 100px }
+a.nav-link {color: #fff !important;padding: 0 20px !important;}
+.navbar-btn{border: 2px solid white;padding: 8px;width: 140px; border-radius: 30px;background-color: transparent; color: white;margin-right: 40px}
+.header-banner{ padding: 70px 0}
+.header-banner-heading{font-size: 4.5em; padding-bottom: 30px}
+.header-banner-col-1{color: white; padding:0 0 100px 100px;}
+.header-banner-text{font-size: 1.5em; padding-bottom: 30px}
+.banner-img{width: 100%}
+.header-banner-btn{color: white; background-color: hotpink; padding:10px 20px;border: none; border-radius: 30px}
+
+                            /* Style for Services Section */
+.services-text{text-align: center; margin-top: 70px;}
+.services-content{text-align: center;padding: 60px}
+.services-icons{ width: 60px}
+.services-icons-wrap{width: 100px;padding: 20px; border-radius: 50%; box-shadow: 0 0 10px 0 rgba(0, 0, 0, 30%) ; margin: 0 auto 20px; }
+
+
+                             /* Style for Business Section */
+.business-section-img{
+    position: relative;
+    /*max-width: 490px;*/
+    width: 100%;
+}
+.business-btn{background-color: rgb(247, 89, 140); border-radius: 50px; border: none; padding: 10px 20px; width: 150px; color: #FFFFFF }
+.business-section{background-color:rgb(246, 249, 252);margin: 0 !important; }
+.business-section-cols{padding: 20px}
+.business-section-2-rows-cols{padding: 20px;}
+.new-features-logo{width: 70px;height: 70px; border-radius: 50%;    background-color: rgb(255, 192, 203, 0.3); }
+.new-features-text{display: inline}
+.col-lg-6.business-section-cols.business-section-cols-image {
+    position: relative;
+    margin-bottom: 30px;
+}
+.new-features {
+    position: absolute;
+    top: calc(50% - 50px );
+    right: -125px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 30%);
+    border-radius: 10px;
+     width: 390px;
+    height: 100px;
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.business-section-col-2 {
+    padding: 50px 50px 50px 184px;
+}
+
+                             /* Style for IT Services Section*/
+.IT-services{background-image: linear-gradient(to right, rgb(12, 12, 31), rgb(10, 43, 94) );padding: 70px 50px}
+.IT-services-text:nth-child(1) {
+    padding-left: 0;
+}
+.IT-services-text:nth-child(2) {
+    padding-right: 0;
+
+}
+.IT-services-text{color: white;padding: 50px}
+.Industries-section-col-main {
+    gap: 1.33%;
+    padding-bottom: 70px;
+
+}
+.Industries-section-cols{text-align: center; border: 2px solid rgb(60, 61, 79); color: white;width: 24%; padding: 30px 53px;}
+.Industries-section-cols-icon{width: 50px;  margin: 30px;}
+.Industries-section-row-3{color: white; text-align: center}
+.Industries-section-row-3:hover{color: white}
+
+                                /* Style for partner Section */
+.partner-section{padding: 70px 50px; text-align: center;}
+.partner-section-row-1{padding: 0 250px 50px 250px}
+.partner-section-row-1-cols{padding: 20px 0}
+.partner-section-btn{ border: 2px solid hotpink; color: hotpink; padding: 15px 30px;
+                        border-radius: 50px; text-decoration: none;}
+.partner-section-btn:hover{color: hotpink}
+.partner-section-cols{text-align: center;padding: 10px;}
+.partner-section-title{font-size: 2.5em}
+.partner-section-row-2-cols{padding:70px 70px 0 70px;}
+.partner-section-row-2-cols-heading{font-size: 2.5em}
+.partner-section-row-2-cols-para{font-size: 1.2em}
+
+                                  /* Style for Stuff Section  */
+.stuff-section{padding: 70px 0}
+.stuff-section-row-1{text-align: center; padding-bottom:50px }
+.stuff-section-cols {
+    color: white;
+    padding: 0;
+}
+.stuff-section-cols-circle{width: 30px; height: 30px; border-radius: 50%; background-color: white;    margin: 10px auto;}
+.stuff-section-col-1-img {
+    position: relative;
+}
+.stff-content {
+    position: absolute;
+    top: calc(50% - 65px);
+    /* bottom: 0px; */
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+}
+.stuff-container.container {
+    display: flex;
+    gap: 20px;
+}
+.stuff-container.container img{
+    width: 100%;
+}
+.stuff-section-col-1-img:after {
+    position: absolute;
+    content: '';
+    background: rgb(10, 34, 77, 0.3);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+}
+.stuff-section-text{color: black; padding-top: 20px}
+
+                                   /* Style for IT solution Section */
+.IT-solution-section{ position: relative;width: 100%}
+.IT-solution-icon{width: 50px;background-color: hotpink; border-radius: 50%}
+.IT-solution-section-content{ position: absolute;
+    top: calc(7% - 30px);
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    background-color: rgba(0, 0, 60, 0.2);
+    height: 100%;
+    padding-top: 100px;
+}
+
+.IT-solution-section-img{position: relative;width:100%}
+.IT-solution-section-img:after{
+     position: absolute;
+    content: '';
+    background: rgb(10, 34, 77, 0.3);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+
+}
+.IT-solution-section-btn{padding: 15px; border-radius: 30px; border: none; background-color: white; color: hotpink;  }
+
+                                     /* Footer Section */
+.footer-section{padding: 70px 50px; margin: 0 !important;}
+.footer-section-nav{list-style-type: none;padding: 0}
+.footer-section-nav-menu{text-decoration: none; color: black; display: block;padding: 10px 10px 10px 0;}
+.footer-section-nav-menu:hover{color: black}
+.footer-section-services{list-style-type: none;
+    padding: 0;}
+.footer-section-cols{padding-right: 40px; padding-bottom: 40px}
+.footer-section-services-menu{text-decoration: none; color: black; display: block; padding: 10px 10px 10px 0; }
+.footer-section-services-menu:hover{color: black}
+.footer-section-email{border-radius: 30px; padding: 7px;width: 80%}
+.footer-btn{background-color: white; border: none; }
+.social-media{padding-top:30px }
+.social-media-icons{width: 30px;margin: 10px}
+.footer-section-element{padding: 7px 0;}
+.footer-section-company-email{color: black;}
+.footer-section-company-email:hover{color: black}
+.ending-msg{text-align: center; margin: 0 !important;}
+
+                                              /* Media Queries for Tablet */
+@media screen and (max-width: 992px) {
+    .IT-solution-icon{width: 30px}
+    .partner-section-cols{padding: 10% }
+    .partner-section{padding: 50px 20px}
+    .IT-services-text{padding: 50px 30px}
+    .header-banner-heading{font-size: 3em}
+    .brand-logo{padding: 10px 0 0 30px}
+    .header-banner-col-1{padding:50px}
+    .banner-img{padding: 0 30px}
+    .Industries-section-col-main {
+    gap: 4%;
+    row-gap: 30px;
+}
+    .Industries-section-cols {
+    width: 48%;
+}
+    .new-features-text {
+    width: auto;
+}
+.new-features {
+    position: absolute;
+    top: inherit;
+    bottom: 60px;
+    right: 0;
+    left: 12.5%;
+    width: 81%;
+}
+.IT-solution-section-content{width: 100%}
+.partner-section-row-1{padding: 10px}
+.partner-section-title{font-size: 1.3em}
+.partner-section-row-2-cols{padding: 20px 10px}
+.footer-section-email{width: 50%}
+
+.IT-solution-section-content {
+    position: absolute;
+    top: calc(12% - 30px);
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    background-color: rgba(0, 0, 60, 0.2);
+    height: 100%;
+    padding-top: 46px;}
+    .business-section-cols {
+    padding: 50px;
+}
+    .row.new-features {
+    position: absolute;
+    top: inherit;
+    bottom: 58px;
+    right: 0;
+    left: 12%;
+    width: 80%;
+}
+}
+
+                                              /* Media Queries for Small Tabs */
+@media screen and (max-width:647px){
+    .IT-solution-section-content {
+        position: absolute;
+        top: calc(15% - 30px);
+        left: 0;
+        right: 0;
+        text-align: center;
+        color: white;
+        z-index: 1;
+        background-color: rgba(0, 0, 60, 0.2);
+        height: 100%;
+        padding-top: 19px;
+    }
+}
+
+
+                                            /* Media Queries for Mobile */
+@media screen and (max-width: 576px) {
+    .Industries-section-cols {
+        width: 100%;
+    }
+
+    .business-section-cols {
+        padding: 0;
+    }
+
+    .new-features-text {
+        width: auto;
+    }
+
+    .row.new-features {
+        position: absolute;
+        top: inherit;
+        bottom: 10px;
+        right: 0;
+        left: 7.5%;
+        width: 92%;
+    }
+
+    .stuff-container.container {
+        flex-wrap: wrap;
+    }
+
+    .stuff-section-cols {
+        width: 100%;
+    }
+
+    .services-content {
+        padding: 50px 40px
+    }
+
+    .business-section {
+        padding: 30px;
+    }
+}
+.IT-solution-section-content {
+    position: absolute;
+    top: calc(18% - 30px);
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    background-color: rgba(0, 0, 60, 0.2);
+    height: 100%;
+    padding-top: 0;
+    font-size: 0.6em;
+}
+.IT-solution-section-btn{padding: 6px; border-radius: 30px; border: none; background-color: white; color: hotpink; font-size: 0.6em}
+.IT-solution-section-text{font-size: 1.5em}
+.footer-section-email{width: 80%}
+.footer-section-cols{padding-left: 0}
+
+@media screen and (max-width: 543px){
+    .IT-solution-section-content {
+    position: absolute;
+    top: calc(20% - 30px);
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    background-color: rgba(0, 0, 60, 0.2);
+    height: 100%;
+    padding-top: 33px;
+    font-size: 0.6em;
+}
+    @media screen and (max-width: 433px){
+        .IT-solution-section-content {
+    position: absolute;
+    top: calc(25% - 30px);
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    background-color: rgba(0, 0, 60, 0.2);
+    height: 100%;
+    padding-top: 15px;
+    font-size: 0.6em;
+}
+    }
+@media screen and (max-width:480px ) {
+    .IT-solution-section-content {
+    position: absolute;
+    top: calc(22% - 30px);
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    background-color: rgba(0, 0, 60, 0.2);
+    height: 100%;
+    padding-top: 11px;
+    font-size: 0.6em;
+}
+
+}
+}
